@@ -1,0 +1,31 @@
+﻿@using WebTabanlıProgramlama_1ODEV.Models
+@model List<Product>
+
+<table>
+    <tr>
+        <th>#</th>
+        <th>Ad</th>
+        <th>Açıklama</th>
+        <th>Fiyat</th>
+
+
+    </tr>
+    @foreach (var urun in Model)
+    {
+        <tr>
+            <td>
+                <img src="@urun.ImageUrl" />
+            </td>
+            <td>
+                <img src="@urun.Name" />
+            </td>
+            <td>
+                <img src="@urun.Decription" />
+            </td>
+            <td>
+                <img src="@urun.Price" />
+            </td>
+        </tr>
+    }
+</table>
+

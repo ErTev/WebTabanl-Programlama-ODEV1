@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\WebTabanlıProgramlama-1ODEV.props" />
+</Project>
